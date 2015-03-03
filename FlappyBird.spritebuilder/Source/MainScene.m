@@ -197,7 +197,7 @@
         // move it to the right
         if (bush.position.x <= (-1 * bush.contentSize.width)) {
             bush.position = ccp(bush.position.x +
-                                3 * bush.contentSize.width, bush.position.y);
+                                4 * bush.contentSize.width, bush.position.y);
         }
     }
     
@@ -211,7 +211,7 @@
         // move it to the right
         if (cloud.position.x <= (-1 * cloud.contentSize.width)) {
             cloud.position = ccp(cloud.position.x +
-                                 3 * cloud.contentSize.width, cloud.position.y);
+                                 4 * cloud.contentSize.width, cloud.position.y);
         }
     }
 }
